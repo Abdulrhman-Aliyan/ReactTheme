@@ -1,0 +1,96 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.upperBar {
+    background-color: #fff !important;
+    color: #000 !important;
+    height: 64px;
+    font-family: 'Roboto', sans-serif !important;
+
+}
+
+.toolbar .generalItems{
+    flex-grow: 1;
+}
+
+.upperBar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+.upperBar .generalItems ul {
+    flex-direction: row;
+}
+
+.upperBar ul li button{
+    display: flex;
+    color: #6b7280;
+    align-items: center;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    justify-content: space-around;
+}
+
+.upperBar ul li button svg{
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+
+.upperBar ul li .star {
+    color: rgb(255, 179, 0)
+}
+
+.upperBar ul li button:hover {
+    background-color: #f2f2f3;
+}
+
+.upperBar ul .avater {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 25px;
+    border-radius: 30px;
+    transition: .1s ease-out;
+}
+
+.upperBar ul .avater:hover {
+    background: #f2f2f3;
+}
+
+.upperBar .avater .avaterText {
+    margin-right: 5px;
+    text-align: end;
+}
+
+.upperBar .avater .avaterText .name {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.upperBar .avater .avaterText .position{
+    color: #6b7280;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.upperBar ul li {
+    align-items: center;
+}
+
+.upperBar ul .lang {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 0 12px;
+}
+
+.upperBar ul .lang span {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+}
